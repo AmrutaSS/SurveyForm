@@ -8,9 +8,6 @@ This project is a simple survey application developed using React.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
