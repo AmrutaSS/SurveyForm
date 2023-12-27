@@ -1,0 +1,98 @@
+/* SurveyForm.css */
+
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the main container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff; /* Example background color for main-container */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 50rem;
+}
+
+/* Form heading styles */
+.form-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styles */
+.survey-form {
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form group styles (each input + label combination) */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  display: block;
+  color: #333;
+}
+
+/* Input field styles */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+/* Button styles */
+.submit-button {
+  width: 100%;
+  padding: 15px 25px;
+  background-color: #333; /* Dark color */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #555; /* Darker on hover */
+}
+
+/* Add this to your SurveyForm.css or your global stylesheet */
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
