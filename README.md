@@ -1,8 +1,46 @@
-# React + Vite
+# Survey Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple survey application developed using React.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Description
+
+This application allows users to fill out a survey form, and the submitted data is displayed in a survey list.
+
+## Features
+
+- User-friendly survey form.
+- Display of survey submissions in a list.
+- Responsive design.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/survey-application.git
+
+
+1. Navigate to the project directory:
+    cd survey-application
+
+2. Install dependencies:
+    npm install
+
+## Usage
+
+1. Run the application:
+    npm run dev
+ 
+2. Open your browser and visit http://localhost:5173/ to use the survey application.
+
+
